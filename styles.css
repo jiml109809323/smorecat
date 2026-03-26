@@ -91,17 +91,10 @@ textarea {
   gap: 0.9rem;
 }
 
-.brand-mark {
-  display: grid;
-  place-items: center;
+.brand-logo {
   width: 52px;
   height: 52px;
-  border-radius: 18px;
-  background: linear-gradient(135deg, var(--pink), var(--sky), var(--yellow));
-  color: var(--heading);
-  font-family: "Baloo 2", cursive;
-  font-size: 1.1rem;
-  font-weight: 700;
+  object-fit: contain;
 }
 
 .brand-name,
@@ -268,28 +261,21 @@ h1 {
   background: rgba(201, 244, 220, 0.75);
 }
 
-.logo-placeholder {
+.hero-logo-card {
   position: absolute;
   top: 1.2rem;
   left: 1.2rem;
-  padding: 1rem 1.1rem;
-  border-radius: 22px;
+  width: min(46%, 250px);
+  padding: 0.8rem;
+  border-radius: 28px;
   background: rgba(255, 255, 255, 0.88);
-  border: 1px dashed rgba(146, 132, 208, 0.35);
+  border: 1px solid rgba(146, 132, 208, 0.18);
+  box-shadow: 0 18px 36px rgba(207, 182, 255, 0.18);
 }
 
-.logo-badge {
-  display: inline-block;
-  margin-bottom: 0.45rem;
-  padding: 0.3rem 0.6rem;
-  border-radius: 999px;
-  background: var(--yellow);
-  font-size: 0.78rem;
-  font-weight: 800;
-}
-
-.logo-placeholder p {
-  margin: 0.35rem 0 0;
+.hero-logo {
+  width: 100%;
+  height: auto;
 }
 
 .section-card,
@@ -502,9 +488,10 @@ h1 {
     border-radius: 24px;
   }
 
-  .logo-placeholder {
+  .hero-logo-card {
     position: static;
     margin-bottom: 1rem;
+    width: 100%;
   }
 
   h1 {
