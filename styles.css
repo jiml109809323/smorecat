@@ -266,16 +266,18 @@ h1 {
   top: 1.2rem;
   left: 1.2rem;
   width: min(46%, 250px);
-  padding: 0.8rem;
   border-radius: 28px;
-  background: rgba(255, 255, 255, 0.88);
-  border: 1px solid rgba(146, 132, 208, 0.18);
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.72);
+  border: 1px solid rgba(146, 132, 208, 0.12);
   box-shadow: 0 18px 36px rgba(207, 182, 255, 0.18);
 }
 
 .hero-logo {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
+  border-radius: inherit;
 }
 
 .section-card,
