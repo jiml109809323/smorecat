@@ -92,7 +92,7 @@ textarea {
 }
 
 .brand-logo {
-  width: 52px;
+  width: 64px;
   height: 52px;
   object-fit: contain;
 }
@@ -275,9 +275,8 @@ h1 {
 
 .hero-logo {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: inherit;
+  height: auto;
+  display: block;
 }
 
 .section-card,
