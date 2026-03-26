@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S'moreCat | Contact</title>
+    <meta
+      name="description"
+      content="Contact S'moreCat to ask about handmade jewellery gifts or place an order."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700&family=Nunito:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="brand" href="./index.html" aria-label="S'moreCat home">
+          <span class="brand-mark" aria-hidden="true">SC</span>
+          <span>
+            <strong class="brand-name">S'moreCat</strong>
+            <span class="brand-tag">Handmade jewellery gifts</span>
+          </span>
+        </a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a class="nav-link" href="./index.html">Home</a>
+          <a class="nav-link" href="./shop.html">Shop</a>
+          <a class="nav-link" href="./about.html">About Us</a>
+          <a class="nav-link current" href="./contact.html">Contact</a>
+        </nav>
+      </header>
+
+      <main class="page-main contact-layout">
+        <section class="page-intro">
+          <p class="eyebrow">Say hello</p>
+          <h1>Contact S'moreCat</h1>
+          <p>
+            Email us to ask about products or place an order. Items can be posted
+            or given in person.
+          </p>
+        </section>
+
+        <section class="contact-grid">
+          <article class="contact-card">
+            <h2>Email</h2>
+            <a class="contact-email" href="mailto:smorecatshop@gmail.com">
+              smorecatshop@gmail.com
+            </a>
+            <p>
+              This is the best way to order while the online shop is still coming
+              soon.
+            </p>
+          </article>
+
+          <form class="contact-form" action="mailto:smorecatshop@gmail.com" method="post" enctype="text/plain">
+            <h2>Quick message</h2>
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" />
+            </label>
+            <label>
+              Message
+              <textarea
+                name="message"
+                rows="5"
+                placeholder="Tell us what you'd like to order or ask"
+              ></textarea>
+            </label>
+            <button class="button button-primary" type="submit">Email S'moreCat</button>
+          </form>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <p>S'moreCat handmade jewellery for sweet little gifts.</p>
+        <a href="mailto:smorecatshop@gmail.com">smorecatshop@gmail.com</a>
+      </footer>
+    </div>
+  </body>
+</html>
